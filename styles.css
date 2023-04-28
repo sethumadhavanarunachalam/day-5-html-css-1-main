@@ -1,0 +1,69 @@
+.container1 {
+    margin: 10px auto;
+    padding:10px 0px;    
+    border: 1px solid rgb(103, 100, 100);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;  
+  }
+  div{
+    margin-top: 10px;
+  }
+  .star {
+    color: red;
+  }
+  label {
+    width: 165px;
+    height: 20px;
+    display: inline-block;
+  }
+  
+  label span {
+    text-align: left;
+    display: inline;
+  } 
+  .emailbox{
+    width:55%;
+  } 
+ 
+.rdo {
+
+  text-align: center;
+}
+.tr {  
+    background-color: rgb(231, 231, 231);  
+  }
+
+td {
+  padding: 4px 8px;
+
+}
+table{
+    width: 100%;
+}
+
+.table_heading {
+  padding: 0px;
+  font-weight: bold;
+  font-family: Arial, Helvetica, sans-serif;
+}
+textarea {
+
+    width: 99%;
+    height: 70px;
+  }
+  
+
+
+
+@media screen and (max-width:1400px) {
+  .container1 {
+
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+}
+
+
